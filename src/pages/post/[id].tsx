@@ -7,7 +7,7 @@ import { generateSSGHelper } from "~/server/helpers/ssgHelper";
 
 const SinglePostPage: NextPage<{ id: string }> = ({ id }) => {
 
-  const { data, isLoading } = api.posts.getById.useQuery({
+  const { data } = api.posts.getById.useQuery({
     id,
   });
 
