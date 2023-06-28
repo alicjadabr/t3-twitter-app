@@ -2,7 +2,7 @@ import { Loader, LoadingPage, PageLayout, PostView } from "~/components";
 import { SignInButton, useUser } from "@clerk/nextjs";
 import { useState } from "react";
 import { toast } from "react-hot-toast";
-import { NextPage } from "next";
+import { type NextPage } from "next";
 import Image from "next/image";
 import { api } from "~/utils/api";
 import dayjs from "dayjs";
